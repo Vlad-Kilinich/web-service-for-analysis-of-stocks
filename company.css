@@ -2,8 +2,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #151B24; /* Темно-серый цвет для фона всей страницы */
-    color: #fff;  /*цвет всей страницы*/
-    padding-top: 32px; /* Высота вашего header */
+    color: #fff;  
+    padding-top: 32px; 
 }
 
 .header-container {
@@ -20,11 +20,9 @@ body {
 .content-container {
   max-width: 1165px; /* Максимальная ширина центрированного содержимого */
   margin: 0 auto; /* Центрирование содержимого */
-  display: flex; /* Flexbox для выравнивания содержимого */
+  display: flex; 
   justify-content: space-between; /* Распределение пространства между элементами */
   align-items: center;
-  /* Паддинг справа и слева, чтобы содержимое не прилипало к краям */
-  /* Другие стили для контейнера содержимого */
 }
 
 .logo {
@@ -89,7 +87,6 @@ body {
 }
 
 .account-button {
-    
     color: white;
     padding: 10px;
     border: none;
@@ -99,14 +96,14 @@ body {
 }
 
 .account-button svg {
-  height: 24px; /* Или другой размер, который вам нужен */
+  height: 24px; 
   width: auto;
-  fill: #fff; /* Цвет иконки */
+  fill: #fff; 
 }
 
 .container {
     display: flex;
-    max-width: 1200px; /* или 100% для полной ширины */
+    max-width: 1200px; 
     margin: 0px auto; /* Центрирование контейнера */
     padding: 20px;
     box-sizing: border-box;
@@ -117,13 +114,11 @@ body {
     width: 70%; /* Примерное соотношение для основного содержания */
     margin-right: 20px; /* Отступ между колонками */
     color: #ffffff;
-    border-radius: 10px; /* Закругление краев основного и бокового блоков */
+    border-radius: 10px; 
     overflow: hidden; /* Скрывает дочерние элементы, выходящие за рамки краев */
 }
 
-
-/*Для боковой ппанели*/
-
+/*Для боковой панели*/
 .foraside{
     background-color: #1B222D;
     width: 30%; /* Примерное соотношение для боковой панели */ 
@@ -140,7 +135,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center; /* Центрирование изображения по всем направлениям */
     margin: 0; /* Убираем внешние отступы */
-    overflow: hidden; /* Обрезка контента, выходящего за рамки из-за border-radius */
+    overflow: hidden; 
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -150,9 +145,9 @@ body {
     background-size: cover;
     min-height: 120px;
     background-repeat: no-repeat;
-    background-position: center center; /* Центрирование изображения по всем направлениям */
-    margin: 0; /* Убираем внешние отступы */
-    overflow: hidden; /* Обрезка контента, выходящего за рамки из-за border-radius */
+    background-position: center center; 
+    margin: 0; 
+    overflow: hidden; 
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
 }
@@ -162,23 +157,23 @@ body {
     background-image: url('img/1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; /* Центрирование изображения по всем направлениям */
-    margin: 0; /* Убираем внешние отступы */
-    overflow: hidden; /* Обрезка контента, выходящего за рамки из-за border-radius */
+    background-position: center center; 
+    margin: 0; 
+    overflow: hidden;
     padding: 10px;
 }
 
 .insight-meta {
-  font-size: 0.85em; /* Меньший размер шрифта для мета-информации */
-  margin-bottom: 10px; /* Отступ под мета-информацией */
+  font-size: 0.85em; 
+  margin-bottom: 10px;
 }
 .insight-content h4 {
-  color: #fff; /* Цвет заголовка статьи */
+  color: #fff; 
 }
 
 .read-more {
-  color: #4eafff; /* Цвет ссылки 'Continue reading' */
-  text-decoration: none; /* Убрать подчёркивание текста ссылки */
+  color: #4eafff; 
+  text-decoration: none; 
   font-size: 0.85em;
 }
 
@@ -186,31 +181,31 @@ body {
 .sidebar {
 
   color: #ffffff;;
-  padding: 10px; /* Отступ внутри боковой панели */
+  padding: 10px; /
   border-radius: 6px
 }
 
 .sidebar-item {
-  margin-bottom: 20px; /* Отступ между элементами боковой панели */
+  margin-bottom: 20px;
 }
 
 
 .market-analysis {
-    background-color: #1B222D; /* Цвет фона раздела */
+    background-color: #1B222D; 
     color: #ffffff;
-    border-radius: 0 0 10px 10px; /* Закругленные углы */
-    padding: 10px 0 1px 0 ; /* Отступ внутри блока */
-    margin-bottom: 20px; /* Отступ снизу */
+    border-radius: 0 0 10px 10px; 
+    padding: 10px 0 1px 0 ; 
+    margin-bottom: 20px; 
 }
 
 .market-analysis h2 {
-    font-size: 1.5rem; /* Размер шрифта для заголовка */
-    margin-bottom: 0.5rem; /* Отступ снизу для заголовка */
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem; 
 }
 
 .market-analysis p {
-    font-size: 0.9rem; /* Размер шрифта для параграфа */
-    margin-bottom: 1rem; /* Отступ снизу для параграфа */
+    font-size: 0.9rem; 
+    margin-bottom: 1rem; 
 }
 
 
@@ -218,11 +213,11 @@ body {
 
 
 .market-data {
-    list-style: none; /* Убираем стандартные маркеры списка */
-    padding-left: 10px; /* Убираем отступы списка */
+    list-style: none; 
+    padding-left: 10px;
     display: flex;
-    justify-content: flex-start; /* Распределение элементов списка по ширине */
-    margin-bottom: 1rem; /* Отступ снизу списка */
+    justify-content: flex-start; 
+    margin-bottom: 1rem; 
     gap: 15px;
 }
 
@@ -237,14 +232,14 @@ body {
 }
 
 .time-period {
-    font-weight: bold; /* Жирное начертание для временного периода */
-    color: #a5c0c8; /* Цвет текста временного периода */
-    margin-bottom: 0.25rem; /* Небольшой отступ снизу */
+    font-weight: bold; 
+    color: #a5c0c8; 
+    margin-bottom: 0.25rem; 
 
 }
 
 .market-change {
-    font-size: 1.rem; /* Размер шрифта для значений рыночных изменений */
+    font-size: 1.rem; 
     font-weight: bold; /* Жирное начертание для значений рыночных изменений */
 }
 
@@ -265,16 +260,16 @@ body {
     display: flex;
     justify-content: start; /* Выравнивание ссылок к началу */
     flex-wrap: wrap; /* Перенос элементов на следующую строку, если не хватает места */
-    gap: 10px; /* Отступы между ссылками */
-    padding-left: 0px; /* Вертикальные отступы для области с ссылками */
+    gap: 10px; 
+    padding-left: 0px; 
 
 }
 
 .trend-link {
-    color: #ffffff; /* Цвет текста */
-    padding: 5px 5px; /* Паддинги для ссылок */
-    border-radius: 5px; /* Закругление углов ссылок */
-    text-decoration: none; /* Убрать подчеркивание текста */
+    color: #ffffff; 
+    padding: 5px 5px; 
+    border-radius: 5px;
+    text-decoration: none; 
     transition: background-color 0.3s; /* Плавный переход цвета фона */
     border: 1px solid #fff;
     font-size: 0.9rem;
@@ -337,8 +332,8 @@ text-decoration: underline;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; /* Центрирование изображения по всем направлениям */
-    margin: 0 auto; /* Убираем внешние отступы */
-    overflow: hidden; /* Обрезка контента, выходящего за рамки из-за border-radius */
+    margin: 0 auto;
+    overflow: hidden;
     border-radius: 0px 0px 10px 10px ;
     display: flex;
     justify-content: space-between;
@@ -354,7 +349,7 @@ text-decoration: underline;
 }
 
 .company-logo {
-  width: 50px; /* или другой размер */
+  width: 50px;
   margin-right: 10px;
 }
 
@@ -365,7 +360,7 @@ text-decoration: underline;
 }
 
 .stat-item {
-  margin-right: 20px; /* Расстояние между элементами статистики */
+  margin-right: 20px;
 
 }
 
@@ -387,14 +382,13 @@ text-decoration: underline;
 }
 
 .company-actions button {
-  background: white; /* Темный фон для кнопок */
+  background: white; 
   color: black;
   border: none;
-  margin-right: 10px; /* Расстояние между кнопками */
+  margin-right: 10px; 
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  /* ... */
 
 }
 
@@ -421,17 +415,17 @@ text-decoration: underline;
 }
 
 .rewards p::before {
-  content: "★"; /* Unicode символ звезды */
+  content: "★"; 
   color: #2DC97E; /* Зелёный цвет звездочки */
-  margin-right: 5px; /* Расстояние между звездочкой и текстом */
-  font-size: 1.2em; /* Размер звездочки */
+  margin-right: 5px; 
+  font-size: 1.2em; 
 }
 
 .risk-analysis p::before {
-  content: "⚠"; /* Unicode символ восклицательного знака в треугольнике */
+  content: "⚠"; 
   color: #FF9212; /* Цвет восклицательного знака */
-  margin-right: 5px; /* Отступ между символом и текстом */
-  font-size: 1.2em; /* Размер символа */
+  margin-right: 5px; 
+  font-size: 1.2em; 
 }
 
 
@@ -439,7 +433,7 @@ text-decoration: underline;
 .snowflake-analysis {
   padding: 0px;
   margin-left: 10px;
-  max-width: 300px; /* Adjust the width as needed */
+  max-width: 300px; 
   }
 
 .snowflake-analysis h2 {
@@ -458,17 +452,17 @@ text-decoration: underline;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px; /* Отступ между элементами списка */
+  margin-bottom: 10px; 
 }
 
 .score-item a {
   text-decoration: none;
-  color: #0077cc; /* Цвет ссылки, можете изменить на нужный */
+  color: #0077cc; 
 }
 
 .score {
   font-weight: bold;
-  color: black; /* Цвет чисел, можете изменить на нужный */
+  color: black;
 }
 
 
@@ -498,13 +492,13 @@ text-decoration: underline;
 
 .analysis-title {
   background-color: rgba(100, 100, 100, 0.4); /* фоновый цвет для заголовка */
-  color: #fff; /* цвет текста */
-  padding: 10px 15px; /* отступы вокруг текста */
-  border-radius: 5px; /* скругление углов */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* тень для заголовка */
-  margin-bottom: 20px; /* отступ снизу */
+  color: #fff; 
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  margin-bottom: 20px;
   display: inline-block; /* делаем блок по ширине текста */
-  font-size: 1.25em; /* размер шрифта */
+  font-size: 1.25em; 
 }
 
 
@@ -520,7 +514,7 @@ text-decoration: underline;
 
 .company-about-section h2 {
   margin-bottom: 16px;
-  color: white; /* Adjust the color to match your design */
+  color: white; 
 }
 
 .fact {
@@ -544,7 +538,7 @@ text-decoration: underline;
 }
 
 .company-about-section p {
-  color: #fff; /* Adjust the color to match your design */
+  color: #fff; 
   line-height: 1.6;
 }
 
