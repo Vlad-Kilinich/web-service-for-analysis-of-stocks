@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+    <script src="js/dynamic-colors.js"></script>
+    <script src="js/linkintable.js"></script>
+</head>
+<body>
+    <header class="header-container">
+        <div class="content-container">
+            <h1 class="logo">THE CAT OF WALL STREET</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#dashboard" hidden>Dashboard</a></li>
+                    <li><a href="index.html">Markets</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="profile.html#Watchlist">Watchlist</a></li>
+                    <li><a href="#portfolios" hidden>Portfolios</a></li>
+                    <li><a href="#screener" hidden>Screener</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="search-bar">
+                    <input type="search" placeholder="Search Ticker...">
+                </div>
+
+                <div class="account-menu">
+                    <button class="account-button">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M313.6 304h-16.7c-28.7 0-42.5 16.2-89.9 16.2s-61.2-16.2-89.9-16.2h-16.7C39.2 304 0 343.1 0 393.6V448c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64v-54.4c0-50.5-39.2-89.6-88.4-89.6zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144z"></path>
+                        </svg>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Профиль</a>
+                        <a href="#logout">Выход из аккаунта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <main class="main-content">
+                <div class="market-analysis-header">
+                    <h2>U.S. Market Analysis & Valuation</h2>
+                    <p>UPDATED Mar 25, 2024 - DATA Aggregated </p>
+                </div>
+            <section class="market-analysis">
+
+                <ul class="market-data">
+                    <li><span class="time-period">7D</span> <span class="market-change">-2.1%</span></li>
+                    <li><span class="time-period">3M</span> <span class="market-change">9.1%</span></li>
+                    <li><span class="time-period">1Y</span> <span class="market-change">30.4%</span></li>
+                    <li><span class="time-period">YTD</span> <span class="market-change">9.6%</span></li>
+                </ul>
+                    <p class="market-summary">
+                    The market has climbed 2.1% in the last 7 days, lead by the Information Technology sector with a gain of 2.8%. The market is up 30% over the last 12 months. Earnings are forecast to grow by 13% annually.
+                    </p>
+                <!-- Дополнительное содержание анализа рынка -->
+                <section class="sector-trends">
+                    <h3>Trending Industries</h3>
+                    <div class="trends-links">
+                        <a href="#" class="trend-link">Oil and Gas</a>
+                        <a href="#" class="trend-link">Gold</a>
+                        <a href="#" class="trend-link">Biotech</a>
+                        <a href="#" class="trend-link">Software</a>
+                        <a href="#" class="trend-link">Renewable Energy</a>
+                    </div>
+
+                </section>
+                <!-- Другие разделы основного содержания -->
+            </section>
+
+
+            <section class="stock-gainers-losers">
+                <h2>Top Stock Gainers and Losers</h2>
+                <p>Which companies have driven the market over the last 7 days?</p>
+                
+                <div class="tabs">
+                    <button class="tab">Top Gainers</button>
+                    <button class="tab">Top Losers</button>
+                </div>
+                
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Company</th>
+                                <th>Last Price</th>
+                                <th>7D</th>
+                                <th>1Y</th>
+                                <th>Valuation</th>
+                                <th>Sector</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Заполните эту часть данными о компаниях -->
+                            <tr data-href="#">
+                                <td>NVIDIA</td>
+                                <td>US$942.89</td>
+                                <td><span class="market-change">6.6%</span></td>
+                                <td><span class="market-change">255.4%</span></td>
+                                <td>PE 78x</td>
+                                <td>Semiconductors</td>
+                            </tr>
+                            
+                            <tr data-href="company1.html">
+                                <td>MSFT</td>
+                                <td>US$420.72</td>
+                                <td><span class="market-change">2.0%</span></td>
+                                <td><span class="market-change">-2.5%</span></td>
+                                <td>PE 37.9x</td>
+                                <td>Software</td>
+                                </a>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                
+                <a href="#" class="see-more">See more</a>
+            </section>
+
+
+
+            <section class="company-overview-container">
+                <img src="img/1.4.png" width="700">
+            </section>
+        </main>
+
+
+        <div class="foraside">
+            <div class="market-analysis-header-aside">
+                <h3>What Do US Elections Mean For The Stock Market?</h3>
+                <p class="insight-meta">Richard Bowman | March 2024 | 5 comments</p>
+            </div>
+            <aside class="sidebar">
+              <div class="sidebar-item">
+                  <div class="insight-content">
+                    <p>This week we are having a look at the US election, whether it matters for the stock market, and what you can do to position your portfolio ahead of it.</p>
+                    <a href="#" class="read-more">Continue reading</a>
+                  </div>
+              </div>
+            </aside>
+
+
+            <div class="market-analysis-header-aside2">
+                <h3>Financial crisis</h3>
+                <p class="insight-meta">Richard Bowman | March 2024 | 5 comments</p>
+            </div>
+            <aside class="sidebar">
+              <div class="sidebar-item">
+                  <div class="insight-content">
+                    <p>This week we are having a look at the US election, whether it matters for the stock market, and what you can do to position your portfolio ahead of it.</p>
+                    <a href="#" class="read-more">Continue reading</a>
+                  </div>
+              </div>
+            </aside>
+        </div>
+    </div>
+
+</body>
+</html>

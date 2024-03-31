@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="company.css">
+    <script src="js/script.js"></script>
+    <script src="js/dynamic-colors.js"></script>
+</head>
+<body>
+    <header class="header-container">
+        <div class="content-container">
+            <h1 class="logo">THE CAT OF WALL STREET</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#dashboard" hidden>Dashboard</a></li>
+                    <li><a href="index.html">Markets</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="profile.html#Watchlist">Watchlist</a></li>
+                    <li><a href="#portfolios" hidden>Portfolios</a></li>
+                    <li><a href="#screener" hidden>Screener</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="search-bar">
+                    <input type="search" placeholder="Search Ticker...">
+                </div>
+
+                <div class="account-menu">
+                    <button class="account-button">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user" class="svg-inline--fa fa-user fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path fill="currentColor" d="M313.6 304h-16.7c-28.7 0-42.5 16.2-89.9 16.2s-61.2-16.2-89.9-16.2h-16.7C39.2 304 0 343.1 0 393.6V448c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64v-54.4c0-50.5-39.2-89.6-88.4-89.6zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144z"></path>
+                        </svg>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Профиль</a>
+
+                        <a href="#logout">Выход из аккаунта</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="image-banner">
+      <div class="image-banner-content">
+        <div class="company-info">
+          <img src="img/microsoft.png" alt="Company Logo" class="company-logo">
+          <div>
+
+            <p>
+            <b> <h2>Microsoft </h2></b>
+            NasdaqGS:MSFT <br>Stock Report</p>
+          </div>
+        </div>
+        <div class="company-stats">
+          <div class="stat-item">
+            <span class="stat-title">LAST PRICE</span>
+            <span class="stat-value">US$420.72</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-title">Market CAP</span>
+            <span class="stat-value">US$3.1t</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-title">7D</span>
+            <span class="market-change">2.0%</span> <!-- Класс negative для красного цвета -->
+          </div>
+          <div class="stat-item">
+            <span class="stat-title">3M</span>
+            <span class="market-change">10.1%</span> <!-- Класс positive для зеленого цвета -->
+          </div>
+          <div class="stat-item">
+            <span class="stat-title">1Y</span>
+            <span class="market-change">-2.5%</span> <!-- Класс positive для зеленого цвета -->
+          </div>
+          <div class="stat-item">
+            <span class="stat-title">YTD</span>
+            <span class="market-change">18.1%</span> <!-- Класс positive для зеленого цвета -->
+          </div>
+
+        </div>
+
+        <div class="company-actions">
+          <button>Add to watchlist</button>
+          <button>Add to Portfolio</button>
+          <button>Compare</button>
+          <button>...</button>
+  
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <main class="main-content">
+
+            <section class="company-overview-container">
+
+                <div class="company-overview-content">
+                    <h2>MSFT Stock Overview</h2>
+                    <p>Microsoft Corporation develops and supports software, services, devices and solutions worldwide.</p>
+                    <a href="#About_the_Company_section" class="about-company-link">About the company</a>
+                  
+                    <div class="rewards">
+                        <h3>Rewards</h3>
+                        <p>Trading at 6.6% below of its fair value</p>
+                        <p>Earnings are forecast to grow 12.61% per year</p>
+                        <p>Earnings have grown 16.3% per year over the past 5 years</p>
+                    </div>
+                    <div class="risk-analysis">
+                        <h3>Risk Analysis</h3>
+                        <p>Significant insider selling over the past 3 months</p>
+                    </div>
+                    <a href="#" class="all-risk-checks-link">See All Risk Checks</a>
+                </div>
+
+                <aside class="table">
+                  <section class="snowflake-analysis">
+
+                    <span class="analysis-title">MSFT fundamental analysis</span>
+                    <ul class="score-list">
+                      <li class="score-item">
+                        <a href="#valuation">Valuation</a>
+                        <span class="score">3/6</span>
+                      </li>
+                      <li class="score-item">
+                        <a href="#future-growth">Future Growth</a>
+                        <span class="score">3/6</span>
+                      </li>
+                      <li class="score-item">
+                        <a href="#past-performance">Past Performance</a>
+                        <span class="score">5/6</span>
+                      </li>
+                      <li class="score-item">
+                        <a href="#financial-health">Financial Health</a>
+                        <span class="score">6/6</span>
+                      </li>
+                      <li class="score-item">
+                        <a href="#dividends">Dividends</a>
+                        <span class="score">0/6</span>
+                      </li>
+                    </ul>
+                  </section>
+
+                </aside>
+            </section>
+
+            <section class="company-about-section" id="About_the_Company_section">
+                <p class="About_the_Company"><b>About the Company </b></p>
+                  <div class="company-facts">
+                    <div class="fact-item"><span class="fact">Founded <br></span> 1975</div>
+                    <div class="fact-item"><span class="fact">Employees <br></span> 221,000</div>
+                    <div class="fact-item"><span class="fact">CEO <br></span> Satya Nadella</div>
+                    <div class="fact-item"><span class="fact">Website <br></span> <a href="https://www.microsoft.com" target="_blank" class="all-risk-checks-link">https://www.microsoft.com</a></div>
+                  </div>
+                  <p>Microsoft Corporation develops and supports software, services, devices and solutions worldwide. The Productivity and Business Processes segment offers office, exchange, SharePoint, Microsoft Teams, office 365 Security and Compliance, Microsoft viva, and Microsoft 365 copilot; and office consumer services, such as Microsoft 365 consumer subscriptions, Office licensed on-premises, and other office services. This segment also provides LinkedIn; and dynamics business solutions, including Dynamics 365, a set of intelligent, cloud-based applications across ERP, CRM, power apps, and power automate; and on-premises ERP and CRM applications.</p>
+
+                  <p>
+                    The Intelligent Cloud segment offers server products and cloud services, such as azure and other cloud services; SQL and windows server, visual studio, system center, and related client access licenses, as well as nuance and GitHub; and enterprise services including enterprise support services, industry solutions, and nuance professional services. The More Personal Computing segment offers Windows, including windows OEM licensing and other non-volume licensing of the Windows operating system; Windows commercial comprising volume licensing of the Windows operating system, windows cloud services, and other Windows commercial offerings; patent licensing; and windows Internet of Things; and devices, such as surface, HoloLens, and PC accessories. Additionally, this segment provides gaming, which includes Xbox hardware and content, and first- and third-party content; Xbox game pass and other subscriptions, cloud gaming, advertising, third-party disc royalties, and other cloud services; and search and news advertising, which includes Bing, Microsoft News and Edge, and third-party affiliates. The company sells its products through OEMs, distributors, and resellers; and directly through digital marketplaces, online, and retail stores.  
+                  </p>
+
+                  <p>
+                      The company was founded in 1975 and is headquartered in Redmond, Washington.
+                  </p>
+
+            </section>
+
+            <section class="company-overview-container">
+                <img src="img/1.1.png" width="700">
+            </section>
+
+            <section class="company-overview-container">
+                <img src="img/1.2.png" width="700">
+            </section>
+
+            <section class="company-overview-container">
+                <img src="img/1.3.png" width="700">
+            </section>
+
+        </main>
+        
+        <div class="foraside">
+            <div class="market-analysis-header-aside">
+                <h3>What Do US Elections Mean For The Stock Market?</h3>
+                <p class="insight-meta">Richard Bowman | March 2024 | 5 comments</p>
+            </div>
+            <aside class="sidebar">
+              <div class="sidebar-item">
+                  <div class="insight-content">
+                    <p>This week we are having a look at the US election, whether it matters for the stock market, and what you can do to position your portfolio ahead of it.</p>
+                    <a href="#" class="read-more">Continue reading</a>
+                  </div>
+              </div>
+            </aside>
+
+
+            <div class="market-analysis-header-aside2">
+                <h3>Financial crisis</h3>
+                <p class="insight-meta">Richard Bowman | March 2024 | 5 comments</p>
+            </div>
+            <aside class="sidebar">
+              <div class="sidebar-item">
+                  <div class="insight-content">
+                    <p>This week we are having a look at the US election, whether it matters for the stock market, and what you can do to position your portfolio ahead of it.</p>
+                    <a href="#" class="read-more">Continue reading</a>
+                  </div>
+              </div>
+            </aside>
+        </div>
+    </div>
+
+</body>
+</html>
