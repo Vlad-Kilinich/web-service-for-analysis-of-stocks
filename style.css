@@ -1,9 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #151B24; /* Темно-серый цвет для фона всей страницы */
-    color: #fff;  /*цвет всей страницы*/
-    padding-top: 40px; /* Высота вашего header */
+    background-color: #151B24; 
+    color: #fff;  
+    padding-top: 40px;
 }
 
 .header-container {
@@ -24,8 +24,6 @@ body {
   display: flex; /* Flexbox для выравнивания содержимого */
   justify-content: space-between; /* Распределение пространства между элементами */
   align-items: center;
-  /* Паддинг справа и слева, чтобы содержимое не прилипало к краям */
-  /* Другие стили для контейнера содержимого */
 }
 
 .logo {
@@ -100,14 +98,14 @@ body {
 }
 
 .account-button svg {
-  height: 24px; /* Или другой размер, который вам нужен */
+  height: 24px; 
   width: auto;
-  fill: #fff; /* Цвет иконки */
+  fill: #fff; 
 }
 
 .container {
     display: flex;
-    max-width: 1200px; /* или 100% для полной ширины */
+    max-width: 1200px;
     margin: 20px auto; /* Центрирование контейнера */
     padding: 20px;
     box-sizing: border-box;
@@ -115,21 +113,20 @@ body {
 }
 
 .main-content {
-    width: 70%; /* Примерное соотношение для основного содержания */
-    margin-right: 20px; /* Отступ между колонками */
+    width: 70%; 
+    margin-right: 20px;
     
     color: #ffffff;
 
-    border-radius: 10px; /* Закругление краев основного и бокового блоков */
+    border-radius: 10px; 
     overflow: hidden; /* Скрывает дочерние элементы, выходящие за рамки краев */
 }
 
 
-/*Для боковой ппанели*/
-
+/*Для боковой панели*/
 .foraside{
     background-color: #1B222D;
-    width: 30%; /* Примерное соотношение для боковой панели */ 
+    width: 30%;  
     height: 10%;
     border-radius: 10px;
 }
@@ -137,29 +134,25 @@ body {
 .sidebar {
 
   color: #ffffff;;
-  padding: 10px; /* Отступ внутри боковой панели */
+  padding: 10px; 
   border-radius: 6px
 }
 
 .sidebar-item {
-  margin-bottom: 20px; /* Отступ между элементами боковой панели */
+  margin-bottom: 20px; 
 }
-
-
-
-
 .insight-content h4 {
-  color: #fff; /* Цвет заголовка статьи */
+  color: #fff; 
 }
 
 .insight-meta {
-  font-size: 0.85em; /* Меньший размер шрифта для мета-информации */
-  margin-bottom: 10px; /* Отступ под мета-информацией */
+  font-size: 0.85em; 
+  margin-bottom: 10px; 
 }
 
 .read-more {
-  color: #4eafff; /* Цвет ссылки 'Continue reading' */
-  text-decoration: none; /* Убрать подчёркивание текста ссылки */
+  color: #4eafff; 
+  text-decoration: none; 
   font-size: 0.85em;
 }
 
@@ -198,32 +191,30 @@ body {
     padding: 10px;
 }
 
-
-/* Дополните и настройте стили в соответствии с вашим дизайном */
 .market-analysis {
-    background-color: #1B222D; /* Цвет фона раздела */
+    background-color: #1B222D; 
     color: #ffffff;
-    border-radius: 0 0 10px 10px; /* Закругленные углы */
-    padding: 10px 0 1px 0 ; /* Отступ внутри блока */
-    margin-bottom: 20px; /* Отступ снизу */
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0 1px 0 ; 
+    margin-bottom: 20px; 
 }
 
 .market-analysis h2 {
-    font-size: 1.5rem; /* Размер шрифта для заголовка */
-    margin-bottom: 0.5rem; /* Отступ снизу для заголовка */
+    font-size: 1.5rem; 
+    margin-bottom: 0.5rem; 
 }
 
 .market-analysis p {
-    font-size: 0.9rem; /* Размер шрифта для параграфа */
-    margin-bottom: 1rem; /* Отступ снизу для параграфа */
+    font-size: 0.9rem; 
+    margin-bottom: 1rem; 
 }
 
 .market-data {
     list-style: none; /* Убираем стандартные маркеры списка */
-    padding-left: 10px; /* Убираем отступы списка */
+    padding-left: 10px; /
     display: flex;
     justify-content: flex-start; /* Распределение элементов списка по ширине */
-    margin-bottom: 1rem; /* Отступ снизу списка */
+    margin-bottom: 1rem; 
     gap: 15px;
 }
 
@@ -238,23 +229,23 @@ body {
 }
 
 .time-period {
-    font-weight: bold; /* Жирное начертание для временного периода */
-    color: #a5c0c8; /* Цвет текста временного периода */
-    margin-bottom: 0.25rem; /* Небольшой отступ снизу */
+    font-weight: bold; /
+    color: #a5c0c8; 
+    margin-bottom: 0.25rem; 
 
 }
 
 .market-change {
-    font-size: 1.2rem; /* Размер шрифта для значений рыночных изменений */
-    font-weight: bold; /* Жирное начертание для значений рыночных изменений */
+    font-size: 1.2rem; 
+    font-weight: bold;
 }
 
 .market-change.up {
-    color: #4CAF50; /* Зеленый цвет для положительного изменения */
+    color: #4CAF50; 
 }
 
 .market-change.down {
-    color: #F44336; /* Красный цвет для отрицательного изменения */
+    color: #F44336;
 }
 
 .sector-trends {
@@ -272,9 +263,9 @@ body {
 }
 
 .trend-link {
-    color: #ffffff; /* Цвет текста */
-    padding: 5px 5px; /* Паддинги для ссылок */
-    border-radius: 5px; /* Закругление углов ссылок */
+    color: #ffffff; 
+    padding: 5px 5px; 
+    border-radius: 5px;
     text-decoration: none; /* Убрать подчеркивание текста */
     transition: background-color 0.3s; /* Плавный переход цвета фона */
     border: 1px solid #fff;
@@ -293,8 +284,7 @@ tr[data-href] {
 
 
 .stock-gainers-losers {
-    background-color: #1B222D; /* Темный фон блока */
-
+    background-color: #1B222D; 
     color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -331,7 +321,7 @@ outline: none;
 }
 
 .table-responsive {
-overflow-x: auto; /* Для прокрутки таблицы на маленьких экранах */
+overflow-x: auto; 
 }
 
 table {
@@ -346,11 +336,11 @@ border-bottom: 1px solid #2d2d2d;
 }
 
 th {
-color: #949494; /* Цвет заголовков таблицы */
+color: #949494; 
 }
 
 tr:hover {
-background-color: #262626; /* Цвет фона для строк таблицы при наведении */
+background-color: #262626; 
 }
 
 .see-more {
@@ -364,10 +354,6 @@ text-decoration: none;
 .see-more:hover {
 text-decoration: underline;
 }
-
-
-
-
 
 .company-overview-container {
     background-color: #1B222D; 
