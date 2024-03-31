@@ -133,9 +133,9 @@ body {
 
 .sidebar {
 
-  color: #ffffff;;
+  color: #ffffff;
   padding: 10px; 
-  border-radius: 6px
+  border-radius: 6px;
 }
 
 .sidebar-item {
@@ -195,7 +195,7 @@ body {
     background-color: #1B222D; 
     color: #ffffff;
     border-radius: 0 0 10px 10px;
-    padding: 10px 0 1px 0 ; 
+    padding: 10px 0 1px 0; 
     margin-bottom: 20px; 
 }
 
@@ -211,7 +211,7 @@ body {
 
 .market-data {
     list-style: none; /* Убираем стандартные маркеры списка */
-    padding-left: 10px; /
+    padding-left: 10px;
     display: flex;
     justify-content: flex-start; /* Распределение элементов списка по ширине */
     margin-bottom: 1rem; 
@@ -229,7 +229,7 @@ body {
 }
 
 .time-period {
-    font-weight: bold; /
+    font-weight: bold; 
     color: #a5c0c8; 
     margin-bottom: 0.25rem; 
 
