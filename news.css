@@ -1,9 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #151B24; /* Темно-серый цвет для фона всей страницы */
-    color: #fff;  /*цвет всей страницы*/
-    padding-top: 40px; /* Высота вашего header */
+    background-color: #151B24; 
+    color: #fff;  
+    padding-top: 40px; 
 }
 
 .header-container {
@@ -24,8 +24,6 @@ body {
   display: flex; /* Flexbox для выравнивания содержимого */
   justify-content: space-between; /* Распределение пространства между элементами */
   align-items: center;
-  /* Паддинг справа и слева, чтобы содержимое не прилипало к краям */
-  /* Другие стили для контейнера содержимого */
 }
 
 .logo {
@@ -100,23 +98,23 @@ body {
 }
 
 .account-button svg {
-  height: 24px; /* Или другой размер, который вам нужен */
+  height: 24px; 
   width: auto;
-  fill: #fff; /* Цвет иконки */
+  fill: #fff; 
 }
 
 
 .main-content {
-    margin: 20px auto; /* Отступ между колонками */
+    margin: 20px auto;
     color: #ffffff;
-    border-radius: 10px; /* Закругление краев основного и бокового блоков */
+    border-radius: 10px; 
     overflow: hidden; /* Скрывает дочерние элементы, выходящие за рамки краев */
     display: flex;
     justify-content: space-between;
-    max-width: 1200px; /* или 100% для полной ширины */
+    max-width: 1200px; 
     padding: 20px;
     box-sizing: border-box;
-    width: 100%; /* Примерное соотношение для основного содержания */
+    width: 100%; 
 }
 
 
@@ -124,7 +122,7 @@ body {
 
 .foraside{
     background-color: #1B222D;
-    width: 22%; /* Примерное соотношение для боковой панели */ 
+    width: 22%; 
     height: 10%;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
@@ -138,27 +136,27 @@ body {
 .sidebar {
   background-color: #1B222D;
   color: #ffffff;;
-  padding: 10px; /* Отступ внутри боковой панели */
+  padding: 10px; 
   border-radius: 6px
 }
 
 .sidebar-item {
-  margin-bottom: 20px; /* Отступ между элементами боковой панели */
+  margin-bottom: 20px;
 }
 
 
 .insight-content h4 {
-  color: #fff; /* Цвет заголовка статьи */
+  color: #fff; 
 }
 
 .insight-meta {
-  font-size: 0.85em; /* Меньший размер шрифта для мета-информации */
-  margin-bottom: 10px; /* Отступ под мета-информацией */
+  font-size: 0.85em; 
+  margin-bottom: 10px;
 }
 
 .read-more {
-  color: #4eafff; /* Цвет ссылки 'Continue reading' */
-  text-decoration: none; /* Убрать подчёркивание текста ссылки */
+  color: #4eafff; 
+  text-decoration: none; 
   font-size: 0.85em;
 }
 
